@@ -1,0 +1,5 @@
+{
+  "name": "wiki-sync",
+  "version": "1.0.0",
+  "description": "Generic Wiki.js content sync: upload assets, push markdown pages, and build navigation trees"
+}
