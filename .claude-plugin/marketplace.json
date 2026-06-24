@@ -1,0 +1,15 @@
+{
+  "name": "expressluck.sub-wiki-js.hq-agent-plugin-marketplace",
+  "description": "Claude Code plugins for Wiki.js content sync and documentation",
+  "owner": {
+    "name": "Express LUCK HQ"
+  },
+  "plugins": [
+    {
+      "name": "wiki-sync",
+      "description": "Generic Wiki.js content sync: upload assets, push markdown pages, and build navigation trees. Uses uv to run Python.",
+      "source": "./plugins/wiki-sync",
+      "category": "documentation"
+    }
+  ]
+}

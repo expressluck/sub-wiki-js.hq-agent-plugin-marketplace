@@ -1,0 +1,27 @@
+[project]
+name = "wiki-sync"
+version = "1.0.0"
+description = "Generic Wiki.js content sync: upload assets, push markdown pages, and build navigation trees"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.0.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.scripts]
+wiki-sync = "wiki_sync.cli:main"
+
+[tool.uv]
+no-cache = true
+prerelease = "if-necessary-or-explicit"
+preview = true
+
+[tool.ruff]
+preview = true
+
+[tool.ruff.lint]
+preview = true
+
+[tool.ruff.format]
+preview = true
