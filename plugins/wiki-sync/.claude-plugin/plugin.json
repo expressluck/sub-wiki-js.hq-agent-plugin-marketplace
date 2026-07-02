@@ -1,6 +1,6 @@
 {
   "name": "wiki-sync",
-  "description": "Sync content to Wiki.js: assets (files/images), pages (markdown), and navigation trees. Uses uv to run Python. Configurable folder paths.",
+  "description": "Sync content to Wiki.js: assets (files/images), pages (markdown), and navigation trees. Uses bun to run JavaScript. Configurable folder paths.",
   "version": "1.0.0",
   "author": {
     "name": "Express LUCK HQ"
