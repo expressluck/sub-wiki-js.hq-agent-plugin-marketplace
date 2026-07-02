@@ -1,7 +1,7 @@
 {
   "name": "wiki-sync",
   "description": "Sync content to Wiki.js: assets (files/images), pages (markdown), and navigation trees. Uses bun to run JavaScript. Configurable folder paths.",
-  "version": "2.0.0",
+  "version": "2.0.260702000",
   "author": {
     "name": "Express LUCK HQ"
   },
